@@ -177,6 +177,7 @@ h6 {
 }
 
 .main__cart_box-title {
+  margin-left: 10px;
   color: #13c2c2;
   font-size: 12px;
   font-weight: 400;
@@ -190,6 +191,7 @@ h6 {
 }
 
 .main__cart_box-img > img {
+  margin-left: 10px;
   width: 40px;
   height: 40px;
   cursor: pointer;
@@ -304,6 +306,7 @@ h6 {
 }
 
 .main__cart_comment-bar > img {
+  margin-left: 10px;
   width: 40px;
   height: 40px;
   cursor: pointer;
