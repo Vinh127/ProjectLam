@@ -333,7 +333,6 @@ html {
   font-weight: 500;
 }
 
-
 .main__cart {
   position: absolute;
   left: 50%;
@@ -519,7 +518,7 @@ html {
   margin-top: 10px;
 }
 
-.main__cart_box-review-reply > img {
+.main__cart_box-review-reply > .main__cart_box-review-reply-cat {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -541,6 +540,9 @@ html {
   position: absolute;
   top: 2px;
   right: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
   object-fit: cover;
 }
 
@@ -561,7 +563,7 @@ html {
   border-radius: 9999px;
 }
 
-.main__cart_comment-bar > img {
+.main__cart_comment-bar > .main__cart_comment-bar-cat {
   margin-left: 10px;
   width: 40px;
   height: 40px;
@@ -575,7 +577,7 @@ html {
   width: 25px !important;
   height: 25px !important;
   top: 6px;
-  right: 80px;
+  right: 160px;
   object-fit: cover;
 }
 

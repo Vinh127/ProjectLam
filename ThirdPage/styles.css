@@ -285,13 +285,6 @@ h6 {
   margin-top: 10px;
 }
 
-.main__cart_box-review-reply > img {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  object-fit: cover;
-  border-radius: 9999px;
-}
 
 .main__cart_box-review-reply > input {
   outline: none;
@@ -307,7 +300,18 @@ h6 {
   position: absolute;
   top: 2px;
   right: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
   object-fit: cover;
+}
+
+.main__cart_box-review-reply > .main__cart_box-review-reply-cat {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 9999px;
 }
 
 .main__cart_comment-bar {
@@ -327,20 +331,20 @@ h6 {
   border-radius: 9999px;
 }
 
-.main__cart_comment-bar > img {
+.main__cart_comment-bar-cat {
   margin-left: 10px;
-  width: 40px;
-  height: 40px;
-  cursor: pointer;
-  object-fit: cover;
-  border-radius: 9999px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 9999px;
 }
 
 .main__cart_comment-bar-camera {
-  position: absolute;
-  width: 25px !important;
-  height: 25px !important;
-  top: 6px;
-  right: 80px;
-  object-fit: cover;
+    position: absolute;
+    width: 25px !important;
+    height: 25px !important;
+    top: 6px;
+    right: 80px;
+    object-fit: cover;
 }

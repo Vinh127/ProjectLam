@@ -469,7 +469,17 @@ h6 {
   margin-top: 10px;
 }
 
-.main__cart_box-review-reply > img {
+.main__cart_box-review-reply-camera {
+  position: absolute;
+  top: 2px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.main__cart_box-review-reply-cat {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -491,6 +501,9 @@ h6 {
   position: absolute;
   top: 2px;
   right: 10px;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
   object-fit: cover;
 }
 
@@ -511,7 +524,7 @@ h6 {
   border-radius: 9999px;
 }
 
-.main__cart_comment-bar > img {
+.main__cart_comment-bar > .main__cart_comment-bar-cat {
   margin-left: 10px;
   width: 40px;
   height: 40px;
