@@ -55,6 +55,15 @@ h6 {
   text-transform: uppercase;
 }
 
+.header__content-nav > a {
+  margin: 0px 13px; /* 0px khoảng cách trên và dưới , 13px là khoảng cách trái phải */
+  text-decoration: none; /* Thuộc tính đc dùng để làm ẩn đi dấu gạch chân */
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
 .header__content-list {
   padding: 10px 20px;
   border-radius: 9999px;
